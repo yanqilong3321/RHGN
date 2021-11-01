@@ -27,6 +27,6 @@ python process.py --data_dir ../taobao_data/    #Alibaba-Dataset
 
 python process.py --data_dir ../data/    #JD-Dataset
 ```
-More command can refer  run.sh and baseline.sh
+More command can refer  **run.sh** and **baseline.sh**
 # Contact
 qilong.yan@cripac.ia.ac.cn
