@@ -24,9 +24,9 @@ python jd_tmain.py --data_dir ../data/ --model RHGN --graph G_ori  --label age -
 ```
 ### How to process data
 ```
-python jddata_process.py    #Alibaba-Dataset
+python tbdata_process.py    #Alibaba-Dataset
 
-python tbdata_process.py     #JD-Dataset
+python jddata_process.py     #JD-Dataset
 ```
 More command can refer  **run.sh** and **baseline.sh**
 # Contact
