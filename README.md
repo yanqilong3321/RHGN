@@ -8,6 +8,7 @@ scikit-learn==0.23.2 <br>
 numpy==1.19.1 <br>
 scipy ==1.5.2 <br>
 pandas==1.1.2 <br>
+Note: The code require your gpu memory not less than 20 GB. <br>
 # Dataset
 
 Processed data download link: [Dataset](https://drive.google.com/drive/folders/1K0tRyHOOB63PnXtFtwLU5eM2NbRTiKXG?usp=sharing)<br>
@@ -23,9 +24,9 @@ python jd_tmain.py --data_dir ../data/ --model RHGN --graph G_ori  --label age -
 ```
 ### How to process data
 ```
-python process.py --data_dir ../taobao_data/    #Alibaba-Dataset
+python jddata_process.py    #Alibaba-Dataset
 
-python process.py --data_dir ../data/    #JD-Dataset
+python tbdata_process.py     #JD-Dataset
 ```
 More command can refer  **run.sh** and **baseline.sh**
 # Contact
